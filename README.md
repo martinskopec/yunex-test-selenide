@@ -26,7 +26,7 @@ Once you have the repository downloaded, you need to install necessary dependenc
 
 ```bash
 cd your-repository
-mvn clean install
+mvn clean install -DskipTests
 ```
 
 
