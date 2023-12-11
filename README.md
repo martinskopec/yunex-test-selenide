@@ -31,10 +31,9 @@ mvn clean install
 
 
 ### Set Environment Variables
-Because it's not a good practice to have sensitive information hardcoded within the code, you also need to create
-`config.properties` file in the `src/main/resources/` path and write the following lines into that file.
-
-**You need to replace `username`, `password` and `url` with the correct values!**
+Because it's not a good practice to have sensitive information hardcoded within the code, you also need to change 
+the `config.properties` file in the `src/main/resources/` path and **replace `username`, `password` and `url` with the 
+correct values!**
 ```bash
 login_username=username
 login_password=password
